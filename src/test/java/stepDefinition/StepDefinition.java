@@ -62,23 +62,7 @@ System.setProperty("webdriver.chrome.driver","C:\Users\hvanum\Downloads:\\chrome
 	 ChromeOptions options = new ChromeOptions();
        options.addArguments("--remote-allow-origins=*");
       driver = new ChromeDriver(options);
-//driver = new ChromeDriver();
 
-// System.setProperty("webdriver.edge.driver","D:\\msedgedriver.exe");
-// driver = new EdgeDriver();
-
-//	System.setProperty("webdriver.gecko.driver","D:\\geckodriver.exe");
-//	 driver= new FirefoxDriver();
-	
-//headless
-//ChromeOptions options = new ChromeOptions();
-//	options.addArguments("headless");
-//driver = new ChromeDriver(options);
-}
-
-
-//
-//
 
 
 

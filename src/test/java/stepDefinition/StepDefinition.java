@@ -58,11 +58,14 @@ public void open_the_browser() throws Exception {
 	
 	ScreenRecorderUtil.startRecord("open_the_browser");
 
-//System.setProperty("webdriver.chrome.driver","D:\\chromedriver.exe");
+System.setProperty("webdriver.chrome.driver","C:\Users\hvanum\Downloads\chromedriver_win32:\\chromedriver.exe");
+	 ChromeOptions options = new ChromeOptions();
+       options.addArguments("--remote-allow-origins=*");
+      driver = new ChromeDriver(options);
 //driver = new ChromeDriver();
 
-System.setProperty("webdriver.edge.driver","D:\\msedgedriver.exe");
-driver = new EdgeDriver();
+// System.setProperty("webdriver.edge.driver","D:\\msedgedriver.exe");
+// driver = new EdgeDriver();
 
 //	System.setProperty("webdriver.gecko.driver","D:\\geckodriver.exe");
 //	 driver= new FirefoxDriver();

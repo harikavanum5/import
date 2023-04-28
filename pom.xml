@@ -83,9 +83,6 @@
             <version>1.16.22</version>
         </dependency>
   
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
 
  
 </project>

@@ -58,7 +58,7 @@ public void open_the_browser() throws Exception {
 	
 	ScreenRecorderUtil.startRecord("open_the_browser");
 
-System.setProperty("webdriver.chrome.driver","C:\Users\hvanum\Downloads:\\chromedriver.exe");
+System.setProperty("webdriver.chrome.driver","C:/Users/hvanum/Downloads/chromedriver_win32 (6)://chromedriver.exe");
 	 ChromeOptions options = new ChromeOptions();
        options.addArguments("--remote-allow-origins=*");
       driver = new ChromeDriver(options);
